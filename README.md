@@ -37,7 +37,7 @@ The purposes of this project are ultimately to help guide genetic research and t
 ## Getting Started
 
 1. Clone this repo.
-2. Raw Data can be downloaded from [here](https://www.kaggle.com/crawford/gene-expression).    
+2. Download Raw Data into 'Data' folder. Download from [here](https://www.kaggle.com/crawford/gene-expression).    
 3. Download the requirements.
 4. If your preference is for notebooks, simply open and run "final_notebook.ipynb"
 5. Else, run "main.py"
