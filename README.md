@@ -19,7 +19,6 @@ The purposes of this project are ultimately to help guide genetic research and t
 * Seaborn, Matplotlib
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 * Data  
    * Data consists of 72 patients with over 9000 gene expression levels
    * 47 classified as patients with ALL, 25 with AML
