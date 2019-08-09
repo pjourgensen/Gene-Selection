@@ -24,16 +24,16 @@ The purposes of this project are ultimately to help guide genetic research and t
    * Data consists of 72 patients with over 9000 gene expression levels
    * 47 classified as patients with ALL, 25 with AML
    * Data already cleaned and suitable for use in ML models
-
-
-## Needs of this project
-
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+* Baseline Model for Bootstrapping
+   * Wanted a model that allowed for nonlinear combinations of gene expressions
+   * Needed a model that remained weak and trained quickly
+   * Chose to use a small densely connected neural network with high dropout rate to satisfy the preconditions
+* Gene Scoring
+   * Initial plan was to use individual model accuracies to score the individual genes
+   * Majority of models only predicted majority class, however, so new methodology needed to be developed
+   * Decided to only consider models that scored above that threshold to identify genes (or combinations) that may have predictive power
+* KNN Optimization
+   * Performed a grid search over the number of highest scoring genes to find the optimal number suited for classification
 
 ## Getting Started
 
