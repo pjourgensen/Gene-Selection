@@ -8,6 +8,8 @@ The purposes of this project are ultimately to help guide genetic research and t
 ### Methods Used
 * Inferential Statistics
 * Machine Learning
+* Neural Networks
+* Algorithm Development
 * Data Visualization
 * Predictive Modeling
 
